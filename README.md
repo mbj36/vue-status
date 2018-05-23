@@ -2,7 +2,6 @@
 
 Vue component for detecting the network status - online or offline
 
-
 ## Requirements
 
 * Vue.js 2.x
@@ -11,22 +10,26 @@ Vue component for detecting the network status - online or offline
 
 `yarn add vue-status`
 
-or 
+or
 
 `npm install vue-status`
+
+## Demo
+
+[![Edit Vue Template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/lllnp9m84l)
 
 ## Usage
 
 To use it locally in your component
 
-`import VueStatus from 'vue-status' ` 
+`import VueStatus from 'vue-status'`
 
 ```javascript
 export default {
   components: {
-      VueStatus
-    }
-}
+    VueStatus
+  }
+};
 ```
 
 ```html
