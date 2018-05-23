@@ -1,14 +1,22 @@
 {
   "name": "vue-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p"
   },
-  "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Mohit Bajoria",
+    "email": "mohitbajo36@gmail.com",
+    "url": "https://mbj36.xyz"
+  },
+  "keywords": ["vuejs", "offline", "network-detection", "vue-component"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbj36/vue-status.git"
+  },
   "license": "ISC",
   "dependencies": {
     "vue": "^2.5.16"
